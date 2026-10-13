@@ -1,0 +1,29 @@
+# 本机发现链接、个人产出与下载包
+/.agents/
+/output/
+/本地资料/
+/dist/
+/展示页/.openai/
+/展示页/.sites-local/
+/展示页/dist/downloads/
+
+# 登录、配置、日志
+.env
+.env.*
+cookies.json
+*cookies*.json
+*login-qr*
+config.toml
+config.toml.*
+*.plist
+*.log
+session/
+
+# 临时文件与运行包
+.DS_Store
+__pycache__/
+*.pyc
+*.dmg
+*.zip
+*.tar.gz
+*.part

@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书图文创作"
+  short_description: "先核验三条高赞高收藏参考，再选风格；默认生成一张封面，内容页按需制作。"
+  default_prompt: "使用 $xiaohongshu-content 制作小红书图文；已有主题时先调研，否则先询问主题。"
