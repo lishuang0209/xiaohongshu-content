@@ -1,5 +1,6 @@
 # 本机发现链接、个人产出与下载包
 /.agents/
+/.cursor/
 /output/
 /本地资料/
 /dist/
