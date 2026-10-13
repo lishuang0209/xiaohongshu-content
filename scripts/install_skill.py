@@ -17,7 +17,7 @@ def trees_match(left, right):
     comparison = filecmp.dircmp(left, right, ignore=IGNORE_NAMES)
     if comparison.left_only or comparison.right_only or comparison.funny_files or comparison.common_funny:
         return False
-    for name in comparison.diff_files:
+    for name in comparison.common_files:
         if not filecmp.cmp(left / name, right / name, shallow=False):
             return False
     return all(trees_match(left / name, right / name) for name in comparison.subdirs)
